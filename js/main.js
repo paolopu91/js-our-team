@@ -76,7 +76,7 @@ for(let i = 0; i<containerTeam.length;i++){
     
     // creo la mia variabile collaborator per identificare ogni indice del mio containerTeam
     let collaborator = containerTeam[i];
-    
+
     // stampo tutto in console per vedere se funziona
     console.log(collaborator.nome, collaborator.ruolo,collaborator.foto)
 
@@ -98,6 +98,5 @@ const template = `
                     `
                     
 console.log(template)
-
 containerCard.innerHTML += template
 }
